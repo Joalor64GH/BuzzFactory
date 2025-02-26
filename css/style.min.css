@@ -5,7 +5,7 @@
 	--col2: #4b4b4b;
 	--col3: #373737;
 	--col4: #232323;
-	--darkmode-bck: #111
+	--darkmode-bck: #6e4f0a
 }
 
 .darkmode ::-webkit-scrollbar {
@@ -262,6 +262,7 @@ body.miniPlayer #home #home-bt-play:hover .bck {
 }
 
 body.miniPlayer #home #home-bt-album,
+body.miniPlayer #home #home-bt-index,
 body.miniPlayer #home #home-bt-info,
 body.miniPlayer #home #home-bt-list,
 body.miniPlayer #home #home-bt-param,
@@ -1019,18 +1020,29 @@ body.miniPlayer #lock-pause .bt .bck {
 }
 
 @-webkit-keyframes j {
-	to {
+	from {
+		filter: brightness(300%) blur(50px);
+		webkit-transform: scale(1.5);
+		transform: scale(1.5);
+	  }
+	  to {
+		filter: brightness(100%) blur(0px);
 		-webkit-transform: scale(1);
-		transform: scale(1)
+		transform: scale(1);
+	  }
 	}
-}
-
-@keyframes j {
-	to {
+	@keyframes j {
+	  from {
+		filter: brightness(300%) blur(50px);
+		webkit-transform: scale(1.5);
+		transform: scale(1.5);
+	  }
+	  to {
+		filter: brightness(100%) blur(0px);
 		-webkit-transform: scale(1);
-		transform: scale(1)
+		transform: scale(1);
+	  }
 	}
-}
 
 #home #img-version {
 	position: absolute;
@@ -1134,7 +1146,12 @@ body.miniPlayer #lock-pause .bt .bck {
 	-webkit-transform: scale(.5);
 	transform: scale(.5);
 	opacity: 0;
-	cursor: auto
+	cursor: auto;
+	-moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    -webkit-box-shadow: 0 0 20px #000;
+    box-shadow: 0 0 20px #000;
 }
 
 #home .bt .txt {
@@ -1160,7 +1177,9 @@ body.miniPlayer #lock-pause .bt .bck {
 	left: 50%;
 	margin-left: -50px;
 	width: 100px;
-	height: 100px
+	height: 100px;
+	-webkit-box-shadow: 0 0 40px #000 !important;
+    box-shadow: 0 0 40px #000 !important;
 }
 
 #home #home-bt-play.animate {
@@ -1205,6 +1224,7 @@ body.miniPlayer #lock-pause .bt .bck {
 	animation: m .3s cubic-bezier(.175, .885, .32, 1.275) 0s forwards
 }
 
+.bt#home-bt-index,
 .bt#home-bt-info,
 .bt#home-bt-param {
 	top: 44px;
@@ -1219,6 +1239,10 @@ body.miniPlayer #lock-pause .bt .bck {
 	cursor: auto
 }
 
+.bt#home-bt-index {
+	right: 161px;
+}
+
 .bt#home-bt-info {
 	right: 103px
 }
@@ -1228,6 +1252,7 @@ body.miniPlayer #lock-pause .bt .bck {
 	line-height: 0
 }
 
+#home-bt-index.animate,
 #home-bt-info.animate,
 #home-bt-param.animate {
 	-webkit-animation: m .3s cubic-bezier(.175, .885, .32, 1.275) 0s forwards;
@@ -2641,28 +2666,16 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck {
 	margin-right: auto
 }
 
-#box-top .bt#bt-random .bck {
-	background-color: #4d6cbb
+#box-top .bt .bck {
+	background-color: #F2B104
 }
 
-#box-top .bt#bt-record .bck {
-	background-color: #d20a0a
+#box-top .bt:active .bck {
+	background-color: #a87d06
 }
 
-#box-top .bt#bt-random:active .bck {
-	background-color: #2f3a89
-}
-
-#box-top .bt#bt-record:active .bck {
-	background-color: #960000
-}
-
-.mouseEvent #box-top .bt#bt-random:hover .bck {
-	background-color: #2f3a89
-}
-
-.mouseEvent #box-top .bt#bt-record:hover .bck {
-	background-color: #960000
+.mouseEvent #box-top .bt:hover .bck {
+	background-color: #a87d06
 }
 
 #box-top.record {
@@ -2959,7 +2972,7 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck {
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	color: #dcdcdc;
+	color: #000;
 	white-space: nowrap
 }
 
@@ -3472,6 +3485,15 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck {
 .bt.twitter.color:active .txt,
 .mouseEvent .bt.twitter.color:hover .txt {
 	color: #3e82d7
+}
+
+.bt.discord.color .bck {
+    background-color: #5865F2;
+}
+
+.bt.discord.color:active .bck,
+.mouseEvent .bt.discord.color:hover .bck {
+    background-color: rgb(78, 89, 216);
 }
 
 .bt.youtube.color .txt {
@@ -6394,6 +6416,7 @@ body.mobile .bt#home-bt-switch .bck .bckimg {
 	background-size: 100px 100px
 }
 
+body.mobile .bt#home-bt-index,
 body.mobile .bt#home-bt-info,
 body.mobile .bt#home-bt-param {
 	right: 44px;
@@ -6485,6 +6508,7 @@ body.ultrawide .bt#home-bt-switch {
 	margin-left: 50px
 }
 
+body.ultrawide .bt#home-bt-index,
 body.ultrawide .bt#home-bt-info,
 body.ultrawide .bt#home-bt-list,
 body.ultrawide .bt#home-bt-param {
@@ -7540,3 +7564,20 @@ body.ultrawide .box-popup.middle .flex {
 	background-position: -336px -336px
 }
 
+.version-text{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	margin: 12px;
+	color: #646464;
+	font-size: 12px;
+	font-weight: bold;
+	z-index: 999;
+	pointer-events: none;
+  }
+  
+  @media only screen and (max-height: 550px) {
+	.version-text{
+	  font-size: 9px;
+	}
+  }
