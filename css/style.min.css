@@ -469,12 +469,12 @@ body.miniPlayer #lock-pause .bt .bck {
 	-webkit-transform: translateY(0);
 	transform: translateY(0);
 	pointer-events: none;
-	background-image: url(../img/title.svg);
+	background-image: url(../img/title.png);
 	background-repeat: no-repeat
 }
 
 .darkmode #page-splash .centered #sp-title {
-	background-image: url(../img/title-darkmode.svg)
+	background-image: url(../img/title-darkmode.png)
 }
 
 #page-splash .centered #sp-baseline {
@@ -5496,11 +5496,11 @@ video::-webkit-media-controls {
 	height: 80px;
 	margin-left: 50px;
 	pointer-events: none;
-	background-image: url(../img/title.svg)
+	background-image: url(../img/title.png)
 }
 
 .darkmode .pop#pop-credit .container .logo {
-	background-image: url(../img/title-darkmode.svg)
+	background-image: url(../img/title-darkmode.png)
 }
 
 .pop#pop-credit .container #copy {
