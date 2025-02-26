@@ -473,6 +473,10 @@ body.miniPlayer #lock-pause .bt .bck {
 	background-repeat: no-repeat
 }
 
+.darkmode #page-splash .centered #sp-title {
+	background-image: url(../img/title-darkmode.svg)
+}
+
 #page-splash .centered #sp-baseline {
 	top: 233px;
 	width: 530px;
@@ -5495,6 +5499,9 @@ video::-webkit-media-controls {
 	background-image: url(../img/title.svg)
 }
 
+.darkmode .pop#pop-credit .container .logo {
+	background-image: url(../img/title-darkmode.svg)
+}
 .pop#pop-credit .container #copy {
 	margin-top: 20px
 }
