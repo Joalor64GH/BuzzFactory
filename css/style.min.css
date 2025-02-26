@@ -2852,8 +2852,8 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck {
 .icn-svg,
 .icn-svg path {
 	stroke-width: 0px;
-	stroke: #fff;
-	fill: #fff
+	stroke: #000;
+	fill: #000
 }
 
 #ic-loader path {
