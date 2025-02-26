@@ -1,8 +1,8 @@
 :root {
 	--colBck: #121212;
-	--col0: #919191;
+	--col0: #F2B104;
 	--col1: #F2B104;
-	--col2: #4b4b4b;
+	--col2: #dda408;
 	--col3: #a87d06;
 	--col4: #232323;
 	--darkmode-bck: #473400
@@ -5077,11 +5077,11 @@ video::-webkit-media-controls {
 	width: 100%;
 	height: 1px;
 	margin: 25px 0;
-	background-color: #ccc
+	background-color: #000
 }
 
 .darkmode .box-popup .box .pop .container hr {
-	background-color: #444
+	background-color: #000
 }
 
 .box-popup .box .pop .container .title {
@@ -5154,7 +5154,7 @@ video::-webkit-media-controls {
 	height: 1px;
 	width: 100%;
 	margin: 20px 0;
-	border-top: 1px solid #ccc
+	border-top: 1px solid #000
 }
 
 .appDesktop .box-popup#pop-menu-exit {
