@@ -3,8 +3,8 @@
 	--col0: #F2B104;
 	--col1: #F2B104;
 	--col2: #dda408;
-	--col3: #a87d06;
-	--col4: #dda408;
+	--col3: #866406;
+	--col4: #d39d09;
 	--darkmode-bck: #473400
 }
 
@@ -2720,28 +2720,12 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck {
 	background-color: #252639
 }
 
-#box-top.record #box-bt2 .bt#bt-tool .bck {
-	background-color: #d20a0a
+#box-top #box-bt2 .bt#bt-tool .bck {
+	background-color: #f7d74b
 }
 
-#box-top.replay #box-bt2 .bt#bt-tool .bck {
-	background-color: #36b460
-}
-
-#box-top.random #box-bt2 .bt#bt-tool .bck {
-	background-color: #4d6cbb
-}
-
-.mouseEvent #box-top.record #box-bt2 .bt#bt-tool:hover .bck {
-	background-color: #960000
-}
-
-.mouseEvent #box-top.replay #box-bt2 .bt#bt-tool:hover .bck {
-	background-color: #04822e
-}
-
-.mouseEvent #box-top.random #box-bt2 .bt#bt-tool:hover .bck {
-	background-color: #2f3a89
+.mouseEvent #box-top #box-bt2 .bt#bt-tool:hover .bck {
+	background-color: #b19b38
 }
 
 #box-top.record #box-bt2 .bt#bt-tool .icn-svg,
