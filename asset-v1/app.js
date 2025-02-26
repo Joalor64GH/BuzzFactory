@@ -24,43 +24,43 @@ var app = new function() {
        this.col4 = "#574b00",
        this.animearray = [{
           name: "1_lead",
-          color: "828282",
+          color: "ffca18",
           uniqsnd: true
        }, {
           name: "2_deux",
-          color: "828282",
+          color: "ffca18",
           uniqsnd: true
        }, {
           name: "3_kosh",
-          color: "828282",
+          color: "ffca18",
           uniqsnd: true
        }, {
           name: "4_shpok",
-          color: "828282",
+          color: "ffca18",
           uniqsnd: true
        }, {
           name: "5_tom",
-          color: "828282",
+          color: "ffca18",
           uniqsnd: false
        }, {
           name: "6_nouana",
-          color: "828282",
+          color: "ffca18",
           uniqsnd: false
        }, {
           name: "7_scratch",
-          color: "828282",
+          color: "ffca18",
           uniqsnd: false
        }, {
           name: "8_trill",
-          color: "828282",
+          color: "ffca18",
           uniqsnd: false
        }, {
           name: "9_bass",
-          color: "828282",
+          color: "ffca18",
           uniqsnd: false
        }, {
           name: "10_uh",
-          color: "828282",
+          color: "ffca18",
           uniqsnd: true
        }], this.bonusarray = [];
     for (var n = 0, o = this.animearray.length; n < o; n++) {
