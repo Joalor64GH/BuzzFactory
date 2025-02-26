@@ -1,11 +1,11 @@
 :root {
 	--colBck: #121212;
 	--col0: #919191;
-	--col1: #5f5f5f;
+	--col1: #F2B104;
 	--col2: #4b4b4b;
-	--col3: #373737;
+	--col3: #a87d06;
 	--col4: #232323;
-	--darkmode-bck: #6e4f0a
+	--darkmode-bck: #473400
 }
 
 .darkmode ::-webkit-scrollbar {
