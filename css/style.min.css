@@ -2947,23 +2947,14 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck {
 	height: inherit;
 	width: inherit;
 	line-height: 59px;
-	background-color: #888;
+	background-color: #F2B104;
 	transition: background-color .3s
 }
 
 .bt:active .bck,
 .mouseEvent .bt:hover .bck {
-	background-color: #5a5a5a;
+	background-color: #a87d06;
 	transition: background-color 0s
-}
-
-.darkmode .bt .bck {
-	background-color: #555
-}
-
-.darkmode .bt:active .bck,
-.mouseEvent.darkmode .bt:hover .bck {
-	background-color: #777
 }
 
 .bt .txt {
