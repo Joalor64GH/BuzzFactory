@@ -5499,11 +5499,7 @@ video::-webkit-media-controls {
 
 .pop#pop-credit .container #copy span {
 	font-size: 14px;
-	color: #666
-}
-
-.darkmode .pop#pop-credit .container #copy span {
-	color: #888
+	color: #000
 }
 
 .pop#pop-credit .container #team .box-team {
@@ -5585,7 +5581,7 @@ video::-webkit-media-controls {
 }
 
 .darkmode #pop-setting .container .paramline .label {
-	color: #ccc
+	color: #000
 }
 
 #pop-setting .container .paramline .bt-mini {
@@ -5601,7 +5597,7 @@ video::-webkit-media-controls {
 	position: relative;
 	width: 22px;
 	height: 22px;
-	background-color: #ccc;
+	background-color: #000;
 	border-radius: 50%;
 	margin-left: 15px;
 	margin-right: 15px
@@ -5616,7 +5612,7 @@ video::-webkit-media-controls {
 }
 
 .mouseEvent #pop-setting .container .paramline .ic-info:hover {
-	background-color: #ddd
+	background-color: #555
 }
 
 .box-popup#pop-info .slideshow {
