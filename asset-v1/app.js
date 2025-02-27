@@ -23,6 +23,7 @@ var app = new function() {
        this.col3 = "#574b00",
        this.col4 = "#574b00",
        this.animearray = [{
+         // BEATS
           name: "1_lead",
           color: "ffca18",
           uniqsnd: true
@@ -39,6 +40,7 @@ var app = new function() {
           color: "ffca18",
           uniqsnd: true
        }, {
+         // EFFECTS
           name: "5_tom",
           color: "ffca18",
           uniqsnd: false
@@ -51,6 +53,7 @@ var app = new function() {
           color: "ffca18",
           uniqsnd: false
        }, {
+         // MELODIES
           name: "8_trill",
           color: "ffca18",
           uniqsnd: false
@@ -59,6 +62,7 @@ var app = new function() {
           color: "ffca18",
           uniqsnd: false
        }, {
+         // VOICES
           name: "10_uh",
           color: "ffca18",
           uniqsnd: true

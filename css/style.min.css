@@ -495,7 +495,7 @@ body.miniPlayer #lock-pause .bt .bck {
 	font-family: ralewaymedium, Sans-Serif;
 	font-size: 18px;
 	letter-spacing: .7px;
-	color: #828282
+	color: #000
 }
 
 #page-splash .centered #sp-text {
@@ -2813,7 +2813,7 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck {
 
 .tab.active {
 	z-index: 1;
-	color: #fff;
+	color: #000;
 	background-color: var(--col1)
 }
 
@@ -5077,14 +5077,13 @@ video::-webkit-media-controls {
 	font-family: ralewayregular, Sans-Serif;
 	font-size: 18px;
 	line-height: 22px;
-	color: #5a5a5a;
+	color: #000;
 	white-space: nowrap;
 	cursor: default
 }
 
 .darkmode .box-popup .box .pop .container .text {
 	font-family: ralewaymedium;
-	color: #888
 }
 
 .box-popup .box .pop .container .text.moyen {
@@ -5486,10 +5485,6 @@ video::-webkit-media-controls {
 	cursor: default
 }
 
-.darkmode .pop#pop-credit .container .text {
-	color: #fff
-}
-
 .pop#pop-credit .container .logo {
 	display: inline-block;
 	width: 370px;
@@ -5523,11 +5518,7 @@ video::-webkit-media-controls {
 
 .pop#pop-credit .container #team .box-team:last-child {
 	text-align: left;
-	color: #666
-}
-
-.darkmode .pop#pop-credit .container #team .box-team:last-child {
-	color: #888
+	color: #000
 }
 
 .pop#pop-credit .container .linkme {
@@ -5691,22 +5682,14 @@ video::-webkit-media-controls {
 	text-align: center;
 	font-size: 16px;
 	line-height: 19px;
-	color: #5a5a5a;
+	color: #000;
 	cursor: default
-}
-
-.darkmode .box-popup#pop-info .slideshow .img-box .img .txt {
-	color: #888
 }
 
 .box-popup#pop-info .slideshow .img-box .img .txt b {
 	font-weight: 400;
 	font-family: ralewaybold, Sans-Serif;
-	color: #2f3a89
-}
-
-.darkmode .box-popup#pop-info .slideshow .img-box .img .txt b {
-	color: #4551ad
+	color: #a89214
 }
 
 .box-popup#pop-info .slideshow .nav-box {
@@ -7543,7 +7526,7 @@ body.ultrawide .box-popup.middle .flex {
 	left: 0;
 	bottom: 0;
 	margin: 12px;
-	color: #646464;
+	color: #000;
 	font-size: 12px;
 	font-weight: bold;
 	z-index: 999;
