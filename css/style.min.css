@@ -5068,10 +5068,6 @@ video::-webkit-media-controls {
 	cursor: default
 }
 
-.darkmode .box-popup .box .pop .container .title {
-	color: #ccc
-}
-
 .box-popup .box .pop .container .text {
 	margin-top: 15px;
 	font-family: ralewayregular, Sans-Serif;
